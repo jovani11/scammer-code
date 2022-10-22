@@ -1,0 +1,132 @@
+ * {
+   padding: 0; 
+   margin: 0;
+ }
+ 
+ body {
+   background-color: black;
+ }
+
+.main {
+  display: inline-block;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container1 {
+  height: 30px;
+  width: 180px;
+  background-color: black;
+  border: 2px white solid;
+  margin-top: 30px;
+  color: white;
+  font-size: 17px;
+  margin-left: 80px;
+  display: flex;
+  text-align: center;
+  
+}
+
+
+
+ 
+ .container2 {
+  height: 30px;
+  width: 180px;
+  background-color: transparent;
+  border: 2px transparent solid;
+  margin-top: 30px;
+  color: white;
+  font-size: 17px;
+  margin-left: 80px;
+  justify-content: center;
+  display: flex;
+  
+} 
+
+.start {
+  color: black;
+  height: 30px;
+  width: 50px;
+  background: white;
+  margin-left: 20px;
+}
+
+
+
+/*second section*/
+
+
+.main2 {
+  display: none;
+  margin-top: 50px;
+  height: 80vh;
+  width: 100%;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  
+}
+
+.output {
+  display: flex;
+  margin-top: 30px;
+  height: 120px;
+  width: 100%;
+ margin-top: 12px;
+ margin-left: 0px;
+ background-color: white;
+ text-align: center;
+ text-justify: center;
+ border: 1px solid aqua;
+ border-radius: 20px;
+ justify-content: center;
+ box-shadow: 0 0 10px aqua, 0 0 20px aqua;
+ animation: abimate 3s linear infinite;
+}
+
+.output a {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.questions {
+  position: relative;
+  margin-top: 150px;
+  height: 100vh;
+  background-color: black;
+  
+}
+
+
+
+.button{
+  margin-left: 40%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+
+
+
+.analyzer {
+  color: white;
+  margin-left: 115px;
+  font-size: 30px;
+  color: greenyellow;
+  display: none;
+  animation: animate 0.5s infinite;
+  font-weight: 100;
+}
+
+@keyframes animate {
+  0%{color: black;}
+  100%{color: yellowgreen;}
+}
